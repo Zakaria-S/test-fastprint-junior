@@ -35,6 +35,6 @@
                 <br>
             @endforeach
         </div>
-        <button type="submit" class="btn btn-primary">Tambahkan</button>
+        <button type="submit" class="btn btn-primary">Edit</button>
     </form>
 </body>
