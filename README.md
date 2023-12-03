@@ -3,9 +3,13 @@
 
 
 ## Penggunaan
+Anda harus menginstall terlebih dahulu Composer yang bisa anda download disini:<br>
+https://getcomposer.org/download/
+<br><br>
 Aktifkan terlebih dahulu MySQL menggunakan XAMPP<br>
 Lalu jalankan perintah:
 ```bash
+composer install
 php artisan migrate
 php artisan db:seed --class=KategoriSeeder
 php artisan db:seed --class=StatusSeeder
